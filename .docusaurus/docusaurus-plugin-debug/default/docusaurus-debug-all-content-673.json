@@ -1,0 +1,474 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/renerp/docs",
+          "tagsPath": "/renerp/docs/tags",
+          "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs",
+          "editUrlLocalized": "https://github.com/DankiCalamari/renerp/tree/main/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\calam\\Desktop\\code projects\\erp\\docs\\sidebars.js",
+          "contentPath": "C:\\Users\\calam\\Desktop\\code projects\\erp\\docs\\docs",
+          "contentPathLocalized": "C:\\Users\\calam\\Desktop\\code projects\\erp\\docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "id": "api/authentication",
+              "title": "Authentication",
+              "description": "RENERP uses JWT (JSON Web Tokens) for API authentication. All API endpoints except the login endpoint require a valid JWT token.",
+              "source": "@site/docs/api/authentication.md",
+              "sourceDirName": "api",
+              "slug": "/api/authentication",
+              "permalink": "/renerp/docs/api/authentication",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/api/authentication.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Purchase Management",
+                "permalink": "/renerp/docs/features/purchase"
+              },
+              "next": {
+                "title": "Inventory API",
+                "permalink": "/renerp/docs/api/inventory"
+              }
+            },
+            {
+              "id": "api/inventory",
+              "title": "Inventory API",
+              "description": "The Inventory API provides endpoints for managing products, stock levels, and inventory movements.",
+              "source": "@site/docs/api/inventory.md",
+              "sourceDirName": "api",
+              "slug": "/api/inventory",
+              "permalink": "/renerp/docs/api/inventory",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/api/inventory.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Authentication",
+                "permalink": "/renerp/docs/api/authentication"
+              },
+              "next": {
+                "title": "Sales API",
+                "permalink": "/renerp/docs/api/sales"
+              }
+            },
+            {
+              "id": "api/purchase",
+              "title": "Purchase API",
+              "description": "The Purchase API provides endpoints for managing purchase orders, suppliers, and receiving.",
+              "source": "@site/docs/api/purchase.md",
+              "sourceDirName": "api",
+              "slug": "/api/purchase",
+              "permalink": "/renerp/docs/api/purchase",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/api/purchase.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Sales API",
+                "permalink": "/renerp/docs/api/sales"
+              }
+            },
+            {
+              "id": "api/sales",
+              "title": "Sales API",
+              "description": "The Sales API provides endpoints for managing sales orders, customers, and invoices.",
+              "source": "@site/docs/api/sales.md",
+              "sourceDirName": "api",
+              "slug": "/api/sales",
+              "permalink": "/renerp/docs/api/sales",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/api/sales.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Inventory API",
+                "permalink": "/renerp/docs/api/inventory"
+              },
+              "next": {
+                "title": "Purchase API",
+                "permalink": "/renerp/docs/api/purchase"
+              }
+            },
+            {
+              "id": "contributing",
+              "title": "Contributing Guide",
+              "description": "Thank you for your interest in contributing to RENERP! This guide will help you get started with contributing to the project.",
+              "source": "@site/docs/contributing.md",
+              "sourceDirName": ".",
+              "slug": "/contributing",
+              "permalink": "/renerp/docs/contributing",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/contributing.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Troubleshooting Guide",
+                "permalink": "/renerp/docs/troubleshooting"
+              },
+              "next": {
+                "title": "Inventory Management",
+                "permalink": "/renerp/docs/features/inventory"
+              }
+            },
+            {
+              "id": "deployment",
+              "title": "Deployment Guide",
+              "description": "This guide will help you deploy RENERP to a production environment.",
+              "source": "@site/docs/deployment.md",
+              "sourceDirName": ".",
+              "slug": "/deployment",
+              "permalink": "/renerp/docs/deployment",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/deployment.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Development Guide",
+                "permalink": "/renerp/docs/development"
+              },
+              "next": {
+                "title": "Troubleshooting Guide",
+                "permalink": "/renerp/docs/troubleshooting"
+              }
+            },
+            {
+              "id": "development",
+              "title": "Development Guide",
+              "description": "This guide will help you understand the development workflow and architecture of RENERP.",
+              "source": "@site/docs/development.md",
+              "sourceDirName": ".",
+              "slug": "/development",
+              "permalink": "/renerp/docs/development",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/development.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Installation Guide",
+                "permalink": "/renerp/docs/installation"
+              },
+              "next": {
+                "title": "Deployment Guide",
+                "permalink": "/renerp/docs/deployment"
+              }
+            },
+            {
+              "id": "features/inventory",
+              "title": "Inventory Management",
+              "description": "RENERP provides comprehensive inventory management features to help you track and manage your stock efficiently.",
+              "source": "@site/docs/features/inventory.md",
+              "sourceDirName": "features",
+              "slug": "/features/inventory",
+              "permalink": "/renerp/docs/features/inventory",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/features/inventory.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Contributing Guide",
+                "permalink": "/renerp/docs/contributing"
+              },
+              "next": {
+                "title": "Sales Management",
+                "permalink": "/renerp/docs/features/sales"
+              }
+            },
+            {
+              "id": "features/purchase",
+              "title": "Purchase Management",
+              "description": "RENERP's purchase management module streamlines your procurement process, from purchase requisitions to supplier payments.",
+              "source": "@site/docs/features/purchase.md",
+              "sourceDirName": "features",
+              "slug": "/features/purchase",
+              "permalink": "/renerp/docs/features/purchase",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/features/purchase.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Sales Management",
+                "permalink": "/renerp/docs/features/sales"
+              },
+              "next": {
+                "title": "Authentication",
+                "permalink": "/renerp/docs/api/authentication"
+              }
+            },
+            {
+              "id": "features/sales",
+              "title": "Sales Management",
+              "description": "RENERP's sales management module helps you manage your sales operations efficiently, from quotations to invoicing.",
+              "source": "@site/docs/features/sales.md",
+              "sourceDirName": "features",
+              "slug": "/features/sales",
+              "permalink": "/renerp/docs/features/sales",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/features/sales.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Inventory Management",
+                "permalink": "/renerp/docs/features/inventory"
+              },
+              "next": {
+                "title": "Purchase Management",
+                "permalink": "/renerp/docs/features/purchase"
+              }
+            },
+            {
+              "id": "installation",
+              "title": "Installation Guide",
+              "description": "This guide will help you install and set up RENERP on your system.",
+              "source": "@site/docs/installation.md",
+              "sourceDirName": ".",
+              "slug": "/installation",
+              "permalink": "/renerp/docs/installation",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/installation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Introduction to RENERP",
+                "permalink": "/renerp/docs/intro"
+              },
+              "next": {
+                "title": "Development Guide",
+                "permalink": "/renerp/docs/development"
+              }
+            },
+            {
+              "id": "intro",
+              "title": "Introduction to RENERP",
+              "description": "RENERP is a modern Enterprise Resource Planning (ERP) system built with FastAPI and React. It provides a comprehensive solution for managing your business operations, from inventory and sales to purchases and customer relationships.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/renerp/docs/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "docs",
+              "next": {
+                "title": "Installation Guide",
+                "permalink": "/renerp/docs/installation"
+              }
+            },
+            {
+              "id": "troubleshooting",
+              "title": "Troubleshooting Guide",
+              "description": "This guide will help you resolve common issues that may arise while using RENERP.",
+              "source": "@site/docs/troubleshooting.md",
+              "sourceDirName": ".",
+              "slug": "/troubleshooting",
+              "permalink": "/renerp/docs/troubleshooting",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/troubleshooting.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Deployment Guide",
+                "permalink": "/renerp/docs/deployment"
+              },
+              "next": {
+                "title": "Contributing Guide",
+                "permalink": "/renerp/docs/contributing"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "docs": [
+              {
+                "type": "category",
+                "label": "Getting Started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "installation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "development"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "deployment"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "troubleshooting"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "contributing"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Features",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "features/inventory"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "features/sales"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "features/purchase"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "API Reference",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "api/authentication"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api/inventory"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api/sales"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api/purchase"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/renerp/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/renerp/",
+        "source": "@site/src/pages/index.tsx"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

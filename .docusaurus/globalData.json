@@ -1,0 +1,97 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/renerp/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/renerp/",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "api/authentication",
+              "path": "/renerp/api/authentication",
+              "sidebar": "docs"
+            },
+            {
+              "id": "api/inventory",
+              "path": "/renerp/api/inventory",
+              "sidebar": "docs"
+            },
+            {
+              "id": "api/purchase",
+              "path": "/renerp/api/purchase",
+              "sidebar": "docs"
+            },
+            {
+              "id": "api/sales",
+              "path": "/renerp/api/sales",
+              "sidebar": "docs"
+            },
+            {
+              "id": "CODE_OF_CONDUCT",
+              "path": "/renerp/CODE_OF_CONDUCT"
+            },
+            {
+              "id": "contributing",
+              "path": "/renerp/contributing",
+              "sidebar": "docs"
+            },
+            {
+              "id": "deployment",
+              "path": "/renerp/deployment",
+              "sidebar": "docs"
+            },
+            {
+              "id": "development",
+              "path": "/renerp/development",
+              "sidebar": "docs"
+            },
+            {
+              "id": "features/inventory",
+              "path": "/renerp/features/inventory",
+              "sidebar": "docs"
+            },
+            {
+              "id": "features/purchase",
+              "path": "/renerp/features/purchase",
+              "sidebar": "docs"
+            },
+            {
+              "id": "features/sales",
+              "path": "/renerp/features/sales",
+              "sidebar": "docs"
+            },
+            {
+              "id": "installation",
+              "path": "/renerp/installation",
+              "sidebar": "docs"
+            },
+            {
+              "id": "intro",
+              "path": "/renerp/intro",
+              "sidebar": "docs"
+            },
+            {
+              "id": "troubleshooting",
+              "path": "/renerp/troubleshooting",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/renerp/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

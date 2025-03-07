@@ -1,0 +1,23 @@
+{
+  "id": "api/purchase",
+  "title": "Purchase API",
+  "description": "The Purchase API provides endpoints for managing purchase orders, suppliers, and receiving.",
+  "source": "@site/docs/api/purchase.md",
+  "sourceDirName": "api",
+  "slug": "/api/purchase",
+  "permalink": "/renerp/api/purchase",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/api/purchase.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Sales API",
+    "permalink": "/renerp/api/sales"
+  }
+}

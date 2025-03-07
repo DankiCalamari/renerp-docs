@@ -1,0 +1,78 @@
+{
+  "/renerp/-383": {
+    "__comp": "1df93b7f",
+    "__context": {
+      "plugin": "8c400942"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/renerp/-877": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "94ff2fbc"
+    }
+  },
+  "/renerp/-7a9": {
+    "__comp": "a7bd4aaa",
+    "version": "935f2afb"
+  },
+  "/renerp/-9e0": {
+    "__comp": "a94703ab"
+  },
+  "/renerp/api/authentication-40e": {
+    "__comp": "17896441",
+    "content": "baeff1df"
+  },
+  "/renerp/api/inventory-c29": {
+    "__comp": "17896441",
+    "content": "f4e984ae"
+  },
+  "/renerp/api/purchase-eab": {
+    "__comp": "17896441",
+    "content": "0c7aed27"
+  },
+  "/renerp/api/sales-596": {
+    "__comp": "17896441",
+    "content": "f046c956"
+  },
+  "/renerp/CODE_OF_CONDUCT-973": {
+    "__comp": "17896441",
+    "content": "c4395b35"
+  },
+  "/renerp/contributing-f1e": {
+    "__comp": "17896441",
+    "content": "4d54d076"
+  },
+  "/renerp/deployment-fa5": {
+    "__comp": "17896441",
+    "content": "a3713279"
+  },
+  "/renerp/development-8c1": {
+    "__comp": "17896441",
+    "content": "8f030830"
+  },
+  "/renerp/features/inventory-aff": {
+    "__comp": "17896441",
+    "content": "94120069"
+  },
+  "/renerp/features/purchase-a83": {
+    "__comp": "17896441",
+    "content": "1b79afb5"
+  },
+  "/renerp/features/sales-82d": {
+    "__comp": "17896441",
+    "content": "3966a848"
+  },
+  "/renerp/installation-bdc": {
+    "__comp": "17896441",
+    "content": "3b8c55ea"
+  },
+  "/renerp/intro-3d8": {
+    "__comp": "17896441",
+    "content": "0e384e19"
+  },
+  "/renerp/troubleshooting-efd": {
+    "__comp": "17896441",
+    "content": "9d9f8394"
+  }
+}

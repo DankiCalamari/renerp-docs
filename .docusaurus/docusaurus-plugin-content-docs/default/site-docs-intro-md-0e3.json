@@ -1,0 +1,23 @@
+{
+  "id": "intro",
+  "title": "Introduction to RENERP",
+  "description": "RENERP is a modern Enterprise Resource Planning (ERP) system built with FastAPI and React. It provides a comprehensive solution for managing your business operations, from inventory and sales to purchases and customer relationships.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/renerp/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "Installation Guide",
+    "permalink": "/renerp/installation"
+  }
+}

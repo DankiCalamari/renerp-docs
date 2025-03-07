@@ -1,0 +1,27 @@
+{
+  "id": "deployment",
+  "title": "Deployment Guide",
+  "description": "This guide will help you deploy RENERP to a production environment.",
+  "source": "@site/docs/deployment.md",
+  "sourceDirName": ".",
+  "slug": "/deployment",
+  "permalink": "/renerp/deployment",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/deployment.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Development Guide",
+    "permalink": "/renerp/development"
+  },
+  "next": {
+    "title": "Troubleshooting Guide",
+    "permalink": "/renerp/troubleshooting"
+  }
+}

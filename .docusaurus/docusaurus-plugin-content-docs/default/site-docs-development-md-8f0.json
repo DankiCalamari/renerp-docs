@@ -1,0 +1,27 @@
+{
+  "id": "development",
+  "title": "Development Guide",
+  "description": "This guide will help you understand the development workflow and architecture of RENERP.",
+  "source": "@site/docs/development.md",
+  "sourceDirName": ".",
+  "slug": "/development",
+  "permalink": "/renerp/development",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/development.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Installation Guide",
+    "permalink": "/renerp/installation"
+  },
+  "next": {
+    "title": "Deployment Guide",
+    "permalink": "/renerp/deployment"
+  }
+}

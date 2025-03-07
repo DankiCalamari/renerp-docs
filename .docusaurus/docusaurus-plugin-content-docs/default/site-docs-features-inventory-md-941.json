@@ -1,0 +1,27 @@
+{
+  "id": "features/inventory",
+  "title": "Inventory Management",
+  "description": "RENERP provides comprehensive inventory management features to help you track and manage your stock efficiently.",
+  "source": "@site/docs/features/inventory.md",
+  "sourceDirName": "features",
+  "slug": "/features/inventory",
+  "permalink": "/renerp/features/inventory",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/features/inventory.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Contributing Guide",
+    "permalink": "/renerp/contributing"
+  },
+  "next": {
+    "title": "Sales Management",
+    "permalink": "/renerp/features/sales"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "contributing",
+  "title": "Contributing Guide",
+  "description": "Thank you for your interest in contributing to RENERP! This guide will help you get started with contributing to the project.",
+  "source": "@site/docs/contributing.md",
+  "sourceDirName": ".",
+  "slug": "/contributing",
+  "permalink": "/renerp/contributing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/contributing.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Troubleshooting Guide",
+    "permalink": "/renerp/troubleshooting"
+  },
+  "next": {
+    "title": "Inventory Management",
+    "permalink": "/renerp/features/inventory"
+  }
+}

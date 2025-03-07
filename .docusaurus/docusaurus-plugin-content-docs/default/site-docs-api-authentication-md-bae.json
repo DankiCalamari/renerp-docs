@@ -1,0 +1,27 @@
+{
+  "id": "api/authentication",
+  "title": "Authentication",
+  "description": "RENERP uses JWT (JSON Web Tokens) for API authentication. All API endpoints except the login endpoint require a valid JWT token.",
+  "source": "@site/docs/api/authentication.md",
+  "sourceDirName": "api",
+  "slug": "/api/authentication",
+  "permalink": "/renerp/api/authentication",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/api/authentication.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Purchase Management",
+    "permalink": "/renerp/features/purchase"
+  },
+  "next": {
+    "title": "Inventory API",
+    "permalink": "/renerp/api/inventory"
+  }
+}

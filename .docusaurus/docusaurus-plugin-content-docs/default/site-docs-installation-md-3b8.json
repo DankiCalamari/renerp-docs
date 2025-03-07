@@ -1,0 +1,27 @@
+{
+  "id": "installation",
+  "title": "Installation Guide",
+  "description": "This guide will help you install and set up RENERP on your system.",
+  "source": "@site/docs/installation.md",
+  "sourceDirName": ".",
+  "slug": "/installation",
+  "permalink": "/renerp/installation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/installation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Introduction to RENERP",
+    "permalink": "/renerp/intro"
+  },
+  "next": {
+    "title": "Development Guide",
+    "permalink": "/renerp/development"
+  }
+}

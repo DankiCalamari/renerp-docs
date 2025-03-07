@@ -1,0 +1,27 @@
+{
+  "id": "features/purchase",
+  "title": "Purchase Management",
+  "description": "RENERP's purchase management module streamlines your procurement process, from purchase requisitions to supplier payments.",
+  "source": "@site/docs/features/purchase.md",
+  "sourceDirName": "features",
+  "slug": "/features/purchase",
+  "permalink": "/renerp/features/purchase",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/features/purchase.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Sales Management",
+    "permalink": "/renerp/features/sales"
+  },
+  "next": {
+    "title": "Authentication",
+    "permalink": "/renerp/api/authentication"
+  }
+}

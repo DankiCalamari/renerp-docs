@@ -1,0 +1,97 @@
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(45deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-darkest) 100%);
+}
+
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/img/pattern.svg') repeat;
+  opacity: 0.1;
+}
+
+.hero__title {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.features {
+  padding: 4rem 0;
+}
+
+.card {
+  height: 100%;
+  padding: 2rem;
+  border-radius: 8px;
+  background: var(--ifm-background-surface-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+}
+
+.card p {
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem 0;
+  }
+
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.2rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .features {
+    padding: 2rem 0;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+} 

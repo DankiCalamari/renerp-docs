@@ -1,0 +1,258 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #4CAF50;
+  --ifm-color-primary-dark: #388E3C;
+  --ifm-color-primary-darker: #2E7D32;
+  --ifm-color-primary-darkest: #1B5E20;
+  --ifm-color-primary-light: #81C784;
+  --ifm-color-primary-lighter: #A5D6A7;
+  --ifm-color-primary-lightest: #C8E6C9;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #81C784;
+  --ifm-color-primary-dark: #4CAF50;
+  --ifm-color-primary-darker: #388E3C;
+  --ifm-color-primary-darkest: #2E7D32;
+  --ifm-color-primary-light: #A5D6A7;
+  --ifm-color-primary-lighter: #C8E6C9;
+  --ifm-color-primary-lightest: #E8F5E9;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Theme toggle button styles */
+.theme-toggle {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: var(--ifm-color-emphasis-700);
+  transition: color 0.3s ease;
+}
+
+.theme-toggle:hover {
+  color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .theme-toggle {
+  color: var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .theme-toggle:hover {
+  color: var(--ifm-color-primary-light);
+}
+
+/* Custom styles */
+.hero {
+  background: linear-gradient(45deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-darkest) 100%);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero__title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.button--primary {
+  background-color: white;
+  color: var(--ifm-color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-darkest);
+}
+
+.button--secondary {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.button--secondary:hover {
+  background-color: white;
+  color: var(--ifm-color-primary);
+}
+
+.card {
+  background: var(--ifm-background-surface-color);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+}
+
+.card p {
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 1.5rem;
+}
+
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.feature-item {
+  text-align: center;
+  padding: 2rem;
+}
+
+.feature-item h3 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+}
+
+.feature-item p {
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th, td {
+  padding: 0.75rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  text-align: left;
+}
+
+th {
+  background-color: var(--ifm-color-emphasis-100);
+  font-weight: 600;
+}
+
+/* Alert styles */
+.alert {
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+.alert--info {
+  background-color: var(--ifm-color-info-lightest);
+  color: var(--ifm-color-info-darkest);
+  border: 1px solid var(--ifm-color-info-light);
+}
+
+.alert--success {
+  background-color: var(--ifm-color-success-lightest);
+  color: var(--ifm-color-success-darkest);
+  border: 1px solid var(--ifm-color-success-light);
+}
+
+.alert--warning {
+  background-color: var(--ifm-color-warning-lightest);
+  color: var(--ifm-color-warning-darkest);
+  border: 1px solid var(--ifm-color-warning-light);
+}
+
+.alert--danger {
+  background-color: var(--ifm-color-danger-lightest);
+  color: var(--ifm-color-danger-darkest);
+  border: 1px solid var(--ifm-color-danger-light);
+}
+
+/* Navigation styles */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar__brand {
+  font-weight: 600;
+}
+
+.navbar__link {
+  font-weight: 500;
+}
+
+/* Footer styles */
+.footer {
+  background-color: var(--ifm-color-emphasis-100);
+  padding: 3rem 0;
+}
+
+.footer__title {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.footer__link-item {
+  color: var(--ifm-color-emphasis-700);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 996px) {
+  .hero {
+    padding: 2rem 0;
+  }
+
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.2rem;
+  }
+
+  .button {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  .feature-list {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+} 

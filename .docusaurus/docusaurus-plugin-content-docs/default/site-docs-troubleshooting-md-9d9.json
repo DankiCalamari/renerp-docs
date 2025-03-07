@@ -1,0 +1,27 @@
+{
+  "id": "troubleshooting",
+  "title": "Troubleshooting Guide",
+  "description": "This guide will help you resolve common issues that may arise while using RENERP.",
+  "source": "@site/docs/troubleshooting.md",
+  "sourceDirName": ".",
+  "slug": "/troubleshooting",
+  "permalink": "/renerp/troubleshooting",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/troubleshooting.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Deployment Guide",
+    "permalink": "/renerp/deployment"
+  },
+  "next": {
+    "title": "Contributing Guide",
+    "permalink": "/renerp/contributing"
+  }
+}

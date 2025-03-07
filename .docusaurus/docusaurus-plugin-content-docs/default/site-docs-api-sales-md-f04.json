@@ -1,0 +1,27 @@
+{
+  "id": "api/sales",
+  "title": "Sales API",
+  "description": "The Sales API provides endpoints for managing sales orders, customers, and invoices.",
+  "source": "@site/docs/api/sales.md",
+  "sourceDirName": "api",
+  "slug": "/api/sales",
+  "permalink": "/renerp/api/sales",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/DankiCalamari/renerp/tree/main/docs/docs/api/sales.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Inventory API",
+    "permalink": "/renerp/api/inventory"
+  },
+  "next": {
+    "title": "Purchase API",
+    "permalink": "/renerp/api/purchase"
+  }
+}
