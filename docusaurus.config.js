@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 const config = {
   title: 'RENERP Documentation',
   tagline: 'Modern Enterprise Resource Planning System',
-  url: 'https://dankicalamari.github.io',
-  baseUrl: '/renerp/',
+  url: 'https://renerp-docs.netlify.app',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
